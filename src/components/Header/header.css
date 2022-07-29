@@ -1,0 +1,29 @@
+header {
+  @apply h-screen pt-28 overflow-hidden tablet:h-[68vh];
+}
+.header__container {
+  @apply text-center h-full relative;
+}
+
+/* =========== CTA =============== */
+.cta {
+  @apply mt-10 flex gap-5 justify-center;
+}
+
+/* ============== HEADER SOCIALS ============= */
+.header__socials {
+  @apply flex flex-col items-center gap-3 absolute left-0 bottom-12 /* after:: */ after:block after:w-[1px] after:h-8 after:bg-color-primary after:content-[""] mobile:hidden tablet:hidden;
+}
+
+/* ================ Me ============== */
+.me {
+  left: 50%;
+  transform: translateX(-50%);
+  @apply w-[22rem] h-[30rem] absolute bg-gradient-to-b from-color-primary mt-16 p-6 pt-20 rounded-t-[12rem] overflow-hidden;
+}
+
+/* =============== SCROLL DOWN ================ */
+.scroll__down {
+    transform: rotate(90deg);
+    @apply absolute -right-9 bottom-[8rem] text-[1rem] font-light
+}

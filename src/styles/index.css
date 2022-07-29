@@ -1,0 +1,85 @@
+:root {
+  /* font-size: 62.5%; */
+
+  color-scheme: light dark;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+* {
+  @apply m-0 p-0 box-border border-none outline-none list-none no-underline;
+}
+html {
+  @apply scroll-smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  @apply bg-color-bg bg-texture-bg h-full text-color-white font-poppins text-[1.6rem];
+}
+
+/* ============= General Styles =========== */
+
+.container {
+  @apply w-[90%] my-0 mx-auto /* media(min 600)=> */ tablet:w-[86%] /* media(min 1024px) => */ laptop:w-[75%];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-medium;
+}
+h1 {
+  @apply text-[2.5rem];
+}
+section {
+  @apply mt-32 /* media(min 1024px) */ laptop:mt-24;
+}
+
+section > h2,
+section > h5 {
+  @apply text-center text-color-light
+}
+
+section > h2 {
+  @apply mb-2 text-color-primary /* media(min 1024)=> */ laptop:mb-12
+}
+
+.text-light {
+  @apply text-color-light
+}
+
+a {
+  @apply text-color-primary transition-all duration-[400ms] ease-ease hover:text-color-white
+}
+
+.btn {
+  @apply w-max inline-block text-color-primary py-3 px-5 rounded cursor-pointer border border-solid border-color-primary transition-all duration-[400ms] ease-ease hover:text-color-bg hover:bg-color-white hover:border-transparent
+}
+.btn-primary {
+  @apply bg-color-primary text-color-bg
+}
+
+img {
+  @apply block w-full object-cover
+}
+
