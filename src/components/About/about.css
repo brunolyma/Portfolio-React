@@ -1,0 +1,36 @@
+#about > .about__container {
+  @apply flex flex-col gap-12 text-center laptop:grid laptop:grid-cols-2 items-start;
+}
+
+.about__me {
+  @apply max-w-[330px] w-5/6 aspect-square mt-12 mb-4 mx-auto bg-gradient-to-tr from-transparent via-color-primary to-transparent rounded-[2rem] tablet:w-[65%] laptop:w-[100%];
+}
+
+.about__me-image {
+  transform: rotate(-10deg);
+  @apply rounded-[2rem] overflow-hidden transition-transform duration-200 ease-in-out hover:rotate-0;
+}
+.about__cards {
+  @apply flex flex-col gap-4 mx-4 tablet:grid tablet:grid-cols-3 laptop:m-0;
+}
+
+.about__card {
+  @apply flex flex-col items-center gap-1 py-3 bg-[#2c2c6c61] border border-solid border-color-primary rounded-2xl transition-colors duration-300 ease-in-out laptop:py-5 laptop:gap-2 laptop:border-transparent laptop:hover:border-color-primary;
+}
+.about__icon {
+  @apply text-color-primary text-3xl;
+}
+.about__cards h5 {
+  @apply text-xl;
+}
+
+.about__cards small {
+  @apply text-color-light text-xs;
+}
+
+.about__content p {
+  @apply mx-auto mt-8 mb-6 text-color-light text-lg laptop:my-10 laptop:text-left;
+}
+.about__content a {
+  @apply laptop:float-left;
+}

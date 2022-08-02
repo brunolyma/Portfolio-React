@@ -37,7 +37,7 @@ body {
 /* ============= General Styles =========== */
 
 .container {
-  @apply w-[90%] my-0 mx-auto /* media(min 600)=> */ tablet:w-[86%] /* media(min 1024px) => */ laptop:w-[75%];
+  @apply w-[90%] my-0 mx-auto /*responsive*/ tablet:w-[86%] laptop:w-[75%];
 }
 
 h1,
@@ -49,37 +49,40 @@ h6 {
   @apply font-medium;
 }
 h1 {
-  @apply text-[2.5rem];
+  @apply text-[3rem] font-semibold;
 }
 section {
-  @apply mt-32 /* media(min 1024px) */ laptop:mt-24;
+  @apply h-screen mt-32 pt-10 /*responsive*/ laptop:mt-24;
 }
 
 section > h2,
 section > h5 {
-  @apply text-center text-color-light
+  @apply text-center text-color-light ;
 }
 
 section > h2 {
-  @apply mb-2 text-color-primary /* media(min 1024)=> */ laptop:mb-12
+  @apply mb-2 text-4xl font-semibold text-color-primary /*responsive*/ laptop:mb-12;
+}
+
+section > h5 {
+  @apply text-xl font-normal
 }
 
 .text-light {
-  @apply text-color-light
+  @apply text-color-light;
 }
 
 a {
-  @apply text-color-primary transition-all duration-[400ms] ease-ease hover:text-color-white
+  @apply text-color-primary transition-all duration-[400ms] ease-ease /*hover*/ hover:text-color-white;
 }
 
 .btn {
-  @apply w-max inline-block text-color-primary py-3 px-5 rounded cursor-pointer border border-solid border-color-primary transition-all duration-[400ms] ease-ease hover:text-color-bg hover:bg-color-white hover:border-transparent
+  @apply w-max inline-block text-color-primary py-2 px-3 text-lg  rounded cursor-pointer border border-solid border-color-primary transition-all duration-[400ms] ease-ease /*hover*/ hover:text-color-bg hover:bg-color-white hover:border-transparent /*responsive*/ tablet:py-3 tablet:px-5 tablet:text-2xl;
 }
 .btn-primary {
-  @apply bg-color-primary text-color-bg
+  @apply bg-color-primary text-color-bg;
 }
 
 img {
-  @apply block w-full object-cover
+  @apply block w-full object-cover;
 }
-

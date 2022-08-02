@@ -1,8 +1,11 @@
 header {
-  @apply h-screen pt-28 overflow-hidden tablet:h-[68vh];
+  @apply h-[90vh] pt-16 overflow-hidden /*responsive*/ tablet:pt-20 tablet:h-[95vh] laptop:pt-28 laptop:h-[100vh];
 }
 .header__container {
   @apply text-center h-full relative;
+}
+.header__container h5 {
+  @apply font-normal;
 }
 
 /* =========== CTA =============== */
@@ -12,18 +15,18 @@ header {
 
 /* ============== HEADER SOCIALS ============= */
 .header__socials {
-  @apply flex flex-col items-center gap-3 absolute left-0 bottom-12 /* after:: */ after:block after:w-[1px] after:h-8 after:bg-color-primary after:content-[""] mobile:hidden tablet:hidden;
+  @apply hidden flex-col items-center gap-3 absolute left-0 bottom-12 /* after:: */ after:block after:w-[1px] after:h-8 after:bg-color-primary after:content-[""] /*responsive*/ tablet:flex laptop:flex;
 }
 
 /* ================ Me ============== */
 .me {
   left: 50%;
   transform: translateX(-50%);
-  @apply w-[22rem] h-[30rem] absolute bg-gradient-to-b from-color-primary mt-16 p-6 pt-20 rounded-t-[12rem] overflow-hidden;
+  @apply w-[22rem] h-[30rem] absolute bg-gradient-to-b from-color-primary mt-10 p-6 pt-20 rounded-t-[12rem] /*responsive*/ tablet:mt-16;
 }
 
 /* =============== SCROLL DOWN ================ */
 .scroll__down {
-    transform: rotate(90deg);
-    @apply absolute -right-9 bottom-[8rem] text-[1rem] font-light
+  transform: rotate(90deg);
+  @apply hidden absolute -right-9 bottom-[8rem] text-[1rem] font-light /*responsive*/ tablet:block laptop:block;
 }

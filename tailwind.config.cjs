@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "mobile": '360px',
+      "mobile": '460px',
       'tablet': '600px',
       // => @media (min-width: 640px) { ... }
 
@@ -27,7 +27,13 @@ module.exports = {
       'color-light': '#ffffff99',
       transparent: 'transparent',
     },
-    extend: {
+    extend: {gridTemplateColumns: {
+      // Simple 16 column grid
+      'me': 'repeat(2, minmax(35%, 50%))',
+
+      // Complex site-specific column configuration
+      'ab': 'repeat(1, minmax(3, 1fr)',
+    },
       backgroundImage: {
         'texture-bg': 'url(../assets/bg-texture.png)',
       },

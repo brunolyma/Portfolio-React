@@ -1,8 +1,8 @@
 import { CTA } from "./CTA";
-import Me from '../../assets/me.png'
+import Me from "../../assets/me.png";
 import { HeaderSocials } from "./HeaderSocials";
 
-import "./header.css"
+import "./header.css";
 
 export function Header() {
   return (
@@ -18,7 +18,9 @@ export function Header() {
           <img src={Me} alt="me" />
         </div>
 
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </header>
   );

@@ -1,0 +1,14 @@
+nav {
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  backdrop-filter: blur(0.4rem);
+  @apply flex gap-3 rounded-[3rem] w-max py-3 px-7 fixed z-[2] bg-[#0000004d];
+}
+
+nav a {
+  @apply flex bg-transparent border-[0.1px] border-solid border-transparent p-4 rounded-[50%] text-color-light text-lg hover:bg-[#00000066];
+}
+nav a.active {
+  @apply bg-color-bg border-[0.1px] border-solid border-[#313179] text-color-white;
+}
