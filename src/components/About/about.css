@@ -3,7 +3,7 @@
 }
 
 .about__me {
-  @apply max-w-[330px] w-5/6 aspect-square mt-12 mb-4 mx-auto bg-gradient-to-tr from-transparent via-color-primary to-transparent rounded-[2rem] tablet:w-[65%] laptop:w-[100%];
+  @apply max-w-[330px] w-5/6 aspect-square mt-6 mb-4 mx-auto bg-gradient-to-tr from-transparent via-color-primary to-transparent rounded-[2rem] tablet:w-[65%] laptop:w-[100%];
 }
 
 .about__me-image {
@@ -15,7 +15,7 @@
 }
 
 .about__card {
-  @apply flex flex-col items-center gap-1 py-3 bg-[#2c2c6c61] border border-solid border-color-primary rounded-2xl transition-colors duration-300 ease-in-out laptop:py-5 laptop:gap-2 laptop:border-transparent laptop:hover:border-color-primary;
+  @apply flex flex-col items-center gap-1 py-3 bg-card-respon border border-solid border-color-primary rounded-2xl transition-colors duration-300 ease-in-out laptop:py-5 laptop:gap-2 laptop:border-transparent /* laptop:hover:border-color-primary */;
 }
 .about__icon {
   @apply text-color-primary text-3xl;

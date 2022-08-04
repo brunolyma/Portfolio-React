@@ -52,7 +52,7 @@ h1 {
   @apply text-[3rem] font-semibold;
 }
 section {
-  @apply h-screen mt-32 pt-10 /*responsive*/ laptop:mt-24;
+  @apply mt-32 pt-10 /*responsive*/ laptop:mt-24;
 }
 
 section > h2,
@@ -61,7 +61,7 @@ section > h5 {
 }
 
 section > h2 {
-  @apply mb-2 text-4xl font-semibold text-color-primary /*responsive*/ laptop:mb-12;
+  @apply mb-6 text-4xl font-semibold text-color-primary /*responsive*/ laptop:mb-12;
 }
 
 section > h5 {

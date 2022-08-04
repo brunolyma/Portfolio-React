@@ -1,0 +1,46 @@
+#experience {
+    @apply tablet:grid tablet:grid-cols-2 laptop:mx-20
+}
+#experience > h5 {
+    @apply tablet:text-2xl
+}
+#experience > .experience__container {
+    @apply mt-8 bg-card-respon rounded-[2rem] border border-solid border-color-primary transition-colors laptop:hover:bg-color-bg-variant laptop:hover:border-color-primary-variant;
+}
+.experience__container h4 {
+    @apply text-center my-6 text-color-primary text-2xl
+}
+
+.experience__content {
+    @apply grid grid-cols-2 mx-2 mb-6 gap-5 place-items-center tablet:gap-8
+}
+
+.experience__details {
+ @apply flex flex-col items-start justify-evenly gap-2 mx-2
+}
+
+.experience__details > div {
+    @apply flex items-center gap-2
+}
+
+.experience__details small {
+    font-size: 16px;
+}
+
+.experience__description {
+    @apply p-4 text-sm tablet:text-base
+    /* padding: 1rem;
+    font-size: 14px; */
+}
+
+.experience__description > p {
+    @apply tablet:py-10
+}
+
+.experience__description > p span {
+    @apply text-base text-color-primary font-bold;
+}
+
+/* .mobile {
+    display: none;
+} */

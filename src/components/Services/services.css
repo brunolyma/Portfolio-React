@@ -1,0 +1,27 @@
+.service {
+  @apply h-fit bg-card-respon border border-solid border-color-primary rounded-b-[2rem] transition tablet:w-3/4 tablet:mx-auto laptop:bg-card-respon laptop:hover:bg-color-bg-variant laptop:hover:border-color-primary-variant;
+}
+
+.service__head {
+  @apply p-4 bg-color-primary rounded-b-[2rem] shadow-serv;
+}
+
+.service__head h3 {
+    @apply text-color-bg text-lg text-center
+}
+
+.service__list {
+    @apply p-8
+}
+
+.service__list-icon {
+    @apply text-color-primary min-w-min
+}
+
+.service__list li {
+    @apply flex gap-4 mb-3
+}
+
+.service__list p {
+    @apply text-base
+}
