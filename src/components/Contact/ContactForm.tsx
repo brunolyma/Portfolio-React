@@ -2,16 +2,18 @@ import emailjs, { EmailJSResponseStatus } from "emailjs-com";
 import { useRef } from "react";
 
 export function ContactForm() {
-  const form = useRef<HTMLFormElement>(null);
+  const form = useRef<any>();
 
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
+
+    const fc = form.current
 
     emailjs
       .sendForm(
         "service_fxgin1l",
         "template_jh0w59e",
-        form.current,
+        fc,
         "roz5JtUOnHzr3xn_0"
       )
       .then(

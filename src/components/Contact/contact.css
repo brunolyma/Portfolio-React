@@ -33,6 +33,6 @@ input, textarea {
 }
 
 .btn.btn-primary {
-    @apply inline-block mx-auto text-base font-normal hover:shadow-md hover:shadow-color-white 
+    @apply inline-block mx-auto border-spacing-5 border-solid border-color-primary text-base font-normal hover:text-color-bg focus:border-color-white
 }
 
