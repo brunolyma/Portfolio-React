@@ -7,15 +7,10 @@ export function ContactForm() {
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    const fc = form.current
+    const fc = form.current;
 
     emailjs
-      .sendForm(
-        "service_fxgin1l",
-        "template_jh0w59e",
-        fc,
-        "roz5JtUOnHzr3xn_0"
-      )
+      .sendForm("service_fxgin1l", "template_jh0w59e", fc, "roz5JtUOnHzr3xn_0")
       .then(
         (result) => {
           console.log(result.text);

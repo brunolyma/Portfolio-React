@@ -7,21 +7,21 @@
 }
 
 .service__head h3 {
-    @apply text-color-bg text-lg text-center
+  @apply text-color-bg text-lg text-center;
 }
 
 .service__list {
-    @apply p-8
+  @apply p-8;
 }
 
 .service__list-icon {
-    @apply text-color-primary min-w-min
+  @apply text-color-primary min-w-min;
 }
 
 .service__list li {
-    @apply flex gap-4 mb-3
+  @apply flex gap-4 mb-3;
 }
 
 .service__list p {
-    @apply text-base
+  @apply text-base;
 }

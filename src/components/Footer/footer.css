@@ -1,0 +1,27 @@
+footer {
+  @apply pt-12 mt-10 bg-color-primary text-center text-sm;
+}
+
+footer a {
+  @apply text-color-bg;
+}
+
+.footer__logo {
+  @apply inline-block mb-10 text-[2rem] font-medium;
+}
+
+.permalinks {
+  @apply w-3/4 flex flex-wrap justify-center gap-6 mb-10 mx-auto;
+}
+
+.footer__socials {
+  @apply flex justify-center gap-4 mb-24;
+}
+
+.footer__socials a {
+  @apply flex p-3 bg-color-bg text-color-white border border-solid border-transparent rounded-xl hover:bg-color-bg-variant hover:border-color-bg;
+}
+
+.footer__copy {
+  @apply inline-block mb-2 text-color-bg;
+}

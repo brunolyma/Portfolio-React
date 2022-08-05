@@ -95,10 +95,13 @@ export function Experience() {
         </div>
       </div>
       <div className="container experience__container mobile">
-          <div className="experience__description ">
-            <p><span>{details.lang}</span>{details.desc}</p>
-          </div>
+        <div className="experience__description ">
+          <p>
+            <span>{details.lang}</span>
+            {details.desc}
+          </p>
         </div>
+      </div>
     </section>
   );
 }

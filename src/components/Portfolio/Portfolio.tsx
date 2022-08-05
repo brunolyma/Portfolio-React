@@ -2,7 +2,7 @@ import CineRankCover from "../../assets/cinerank-portfolio.webp";
 import FinanControlCover from "../../assets/financial-control-portfolio.webp";
 import QrCodeCover from "../../assets/qrcode-generator.webp";
 
-import "./portfolio.css"
+import "./portfolio.css";
 
 const portfolioItems = [
   {
@@ -39,14 +39,18 @@ export function Portfolio() {
           portfolioItems.map((project) => (
             <article key={project.id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={project.cover} alt={project.title + " cover"}  />
+                <img src={project.cover} alt={project.title + " cover"} />
               </div>
               <h4>{project.title}</h4>
               <div className="portfolio__item-cta">
                 <a href={project.githubURL} target="_blank" className="btn">
                   Github
                 </a>
-                <a href={project.demoVercel} target="_blank" className="btn btn-primary">
+                <a
+                  href={project.demoVercel}
+                  target="_blank"
+                  className="btn btn-primary"
+                >
                   Live Demo
                 </a>
               </div>

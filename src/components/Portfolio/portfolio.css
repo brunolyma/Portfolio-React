@@ -1,19 +1,19 @@
 .portfolio__container {
-    @apply flex flex-col gap-10 laptop:grid  laptop:grid-cols-3 laptop:gap-5
+  @apply flex flex-col gap-10 laptop:grid  laptop:grid-cols-3 laptop:gap-5;
 }
 
 .portfolio__item {
-    @apply p-5 bg-card-respon border border-solid border-color-primary-variant rounded-[2rem] transition hover:border-color-primary laptop:p-3 laptop:hover:bg-color-bg-variant
+  @apply p-5 bg-card-respon border border-solid border-color-primary-variant rounded-[2rem] transition hover:border-color-primary laptop:p-3 laptop:hover:bg-color-bg-variant;
 }
 
 .portfolio__item-image {
-    @apply rounded-3xl overflow-hidden
+  @apply rounded-3xl overflow-hidden;
 }
 
 .portfolio__item h4 {
-    @apply my-4 text-xl text-center tablet:my-4
+  @apply my-4 text-xl text-center tablet:my-4;
 }
 
 .portfolio__item-cta {
-    @apply flex justify-center gap-4 tablet:mb-4 laptop:text-base laptop:flex-wrap
+  @apply flex justify-center gap-4 tablet:mb-4 laptop:text-base laptop:flex-wrap;
 }

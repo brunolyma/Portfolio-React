@@ -3,7 +3,7 @@
 }
 
 .contact__options {
-  @apply mx-auto flex flex-col gap-5 laptop:w-4/5;
+  @apply mx-auto flex flex-col gap-5 laptop:w-3/5;
 }
 
 .contact__option {
@@ -11,28 +11,28 @@
 }
 
 .contact__option h5 {
-    @apply text-xl font-semibold laptop:mt-3
+  @apply text-xl font-semibold laptop:mt-3;
 }
 
 .contact__option h6 {
-    @apply text-base
+  @apply text-base;
 }
 
 .contact__option a {
-    @apply inline-block text-base laptop:mt-3
+  @apply inline-block text-base laptop:mt-3;
 }
 
 /* ==================FORM ================== */
 
 form {
-    @apply flex flex-col gap-5 mt-8 tablet:mt-0
+  @apply flex flex-col gap-5 mt-8 tablet:mt-0;
 }
 
-input, textarea {
-    @apply w-3/4 p-4 mx-auto bg-transparent border border-solid border-color-primary-variant rounded-lg text-color-white resize-none focus:border-color-primary focus:bg-[#2f3754] tablet:w-full
+input,
+textarea {
+  @apply w-3/4 p-4 mx-auto bg-transparent border border-solid border-color-primary-variant rounded-lg text-color-white resize-none focus:border-color-primary focus:bg-[#2f3754] tablet:w-full;
 }
 
-.btn.btn-primary {
-    @apply inline-block mx-auto border-spacing-5 border-solid border-color-primary text-base font-normal hover:text-color-bg focus:border-color-white
+form > .btn.btn-primary {
+  @apply inline-block mx-auto border-spacing-5 border-solid border-color-primary text-base font-normal hover:text-color-bg focus:border-color-white;
 }
-

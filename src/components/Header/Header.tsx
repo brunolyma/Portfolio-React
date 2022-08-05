@@ -12,7 +12,9 @@ export function Header() {
         <h1>Bruno Lima</h1>
         <h5 className="text-light">Front-End Developer</h5>
         <CTA />
-        <Socials />
+        <div className="header__socials">
+          <Socials />
+        </div>
 
         <div className="me">
           <img src={Me} alt="me" />

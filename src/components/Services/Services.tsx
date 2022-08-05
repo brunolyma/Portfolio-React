@@ -31,7 +31,8 @@ export function Services() {
               <ul className="service__list">
                 {service.offer.map((job, index) => (
                   <li key={index}>
-                    <BiCheck size={25} className="service__list-icon" /> <p>{job}</p>
+                    <BiCheck size={25} className="service__list-icon" />{" "}
+                    <p>{job}</p>
                   </li>
                 ))}
               </ul>

@@ -57,7 +57,7 @@ section {
 
 section > h2,
 section > h5 {
-  @apply text-center text-color-light ;
+  @apply text-center text-color-light;
 }
 
 section > h2 {
@@ -65,7 +65,7 @@ section > h2 {
 }
 
 section > h5 {
-  @apply text-xl font-normal
+  @apply text-xl font-normal;
 }
 
 .text-light {

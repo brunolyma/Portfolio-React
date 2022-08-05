@@ -1,23 +1,24 @@
 .container.testimonials__container {
-    @apply w-4/5 pb-12 tablet:w-3/4 laptop:w-[40%]
+  @apply w-4/5 pb-12 tablet:w-3/4 laptop:w-[40%];
 }
 
 .client__avatar {
-    @apply w-28 mx-auto mb-4 border-spacing-4 border-solid border-color-primary-variant rounded-[50%] aspect-square overflow-hidden laptop:w-32 
+  @apply w-28 mx-auto mb-4 border-spacing-4 border-solid border-color-primary-variant rounded-[50%] aspect-square overflow-hidden laptop:w-32;
 }
 
 .testimonials {
-    @apply p-8 bg-card-respon rounded-[2rem] text-center select-none
+  @apply p-8 bg-card-respon rounded-[2rem] text-center select-none;
 }
 
 .client__name {
-    @apply tablet:text-2xl laptop:text-2xl
+  @apply tablet:text-2xl laptop:text-2xl;
 }
 
 .client__review {
-    @apply block w-4/5 mt-3 mx-auto text-base text-color-light font-light tablet:text-xl
+  @apply block w-4/5 mt-3 mx-auto text-base text-color-light font-light tablet:text-xl;
 }
 
-.swiper-pagination-bullet, .swiper-pagination-bullet-active {
-    @apply bg-color-primary
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  @apply bg-color-primary;
 }
