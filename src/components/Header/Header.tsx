@@ -1,6 +1,6 @@
 import { CTA } from "./CTA";
 import Me from "../../assets/me.png";
-import { HeaderSocials } from "./HeaderSocials";
+import { Socials } from "./Socials";
 
 import "./header.css";
 
@@ -12,7 +12,7 @@ export function Header() {
         <h1>Bruno Lima</h1>
         <h5 className="text-light">Front-End Developer</h5>
         <CTA />
-        <HeaderSocials />
+        <Socials />
 
         <div className="me">
           <img src={Me} alt="me" />

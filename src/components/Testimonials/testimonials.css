@@ -1,5 +1,5 @@
 .container.testimonials__container {
-    @apply w-4/5 pb-12 tablet:w-3/4 laptop:w-3/5
+    @apply w-4/5 pb-12 tablet:w-3/4 laptop:w-[40%]
 }
 
 .client__avatar {

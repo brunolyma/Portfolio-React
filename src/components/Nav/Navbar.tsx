@@ -9,7 +9,7 @@ const iconsBar = [
   { id: "#", icon: <AiOutlineHome /> },
   { id: "#about", icon: <AiOutlineUser /> },
   { id: "#experience", icon: <BiBook /> },
-  { id: "#services", icon: <RiServiceLine /> },
+  { id: "#portfolio", icon: <RiServiceLine /> },
   { id: "#contact", icon: <BiMessageSquareDetail /> },
 ];
 

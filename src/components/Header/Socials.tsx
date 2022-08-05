@@ -1,6 +1,6 @@
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-export function HeaderSocials() {
+export function Socials() {
   return (
     <div className="header__socials">
       <a href="https://linkedin.com/in/brunolimajs" target="_blank">
