@@ -1,4 +1,4 @@
-import emailjs, { EmailJSResponseStatus } from "emailjs-com";
+import emailjs from "emailjs-com";
 import { useRef } from "react";
 
 export function ContactForm() {
@@ -7,10 +7,13 @@ export function ContactForm() {
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    const fc = form.current;
-
     emailjs
-      .sendForm("service_fxgin1l", "template_jh0w59e", fc, "roz5JtUOnHzr3xn_0")
+      .sendForm(
+        "service_fxgin1l",
+        "template_jh0w59e",
+        form.current,
+        "roz5JtUOnHzr3xn_0"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -20,13 +23,14 @@ export function ContactForm() {
         }
       );
 
+    console.log(form, form.current);
     e.target.reset();
   };
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <input type="text" placeholder="Your Full Name" required />
-      <input type="email" placeholder="Your Email" required />
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
       <textarea
         name="message"
         placeholder="Your Message"
