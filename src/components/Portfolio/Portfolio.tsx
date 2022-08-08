@@ -1,6 +1,7 @@
 import CineRankCover from "../../assets/cinerank-portfolio.webp";
 import FinanControlCover from "../../assets/financial-control-portfolio.webp";
 import QrCodeCover from "../../assets/qrcode-generator.webp";
+import { ScrollReveal } from "../../containers/ScrollReveal";
 
 import "./portfolio.css";
 
@@ -30,7 +31,7 @@ const portfolioItems = [
 
 export function Portfolio() {
   return (
-    <section id="portfolio">
+    <ScrollReveal id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -57,6 +58,6 @@ export function Portfolio() {
             </article>
           ))}
       </div>
-    </section>
+    </ScrollReveal>
   );
 }

@@ -1,4 +1,5 @@
 import { BiCheck } from "react-icons/bi";
+import { ScrollReveal } from "../../containers/ScrollReveal";
 
 import "./services.css";
 
@@ -16,7 +17,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services">
+    <ScrollReveal id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -39,6 +40,6 @@ export function Services() {
             </article>
           ))}
       </div>
-    </section>
+    </ScrollReveal>
   );
 }

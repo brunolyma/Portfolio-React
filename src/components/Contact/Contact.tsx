@@ -4,6 +4,7 @@ import { SiWhatsapp } from "react-icons/si";
 import { ContactForm } from "./ContactForm";
 
 import "./contact.css";
+import { ScrollReveal } from "../../containers/ScrollReveal";
 
 const personalContact = [
   {
@@ -24,7 +25,7 @@ const personalContact = [
 
 export function Contact() {
   return (
-    <section id="contact">
+    <ScrollReveal id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -45,6 +46,6 @@ export function Contact() {
 
         <ContactForm />
       </div>
-    </section>
+    </ScrollReveal>
   );
 }

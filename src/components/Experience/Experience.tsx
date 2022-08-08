@@ -3,6 +3,7 @@ import { SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 import "./experience.css";
 import { useState } from "react";
+import { ScrollReveal } from "../../containers/ScrollReveal";
 
 interface Description {
   lang: string;
@@ -69,7 +70,7 @@ export function Experience() {
   };
 
   return (
-    <section id="experience">
+    <ScrollReveal id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
@@ -102,6 +103,6 @@ export function Experience() {
           </p>
         </div>
       </div>
-    </section>
+    </ScrollReveal>
   );
 }

@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import "./testimonials.css";
+import { ScrollReveal } from "../../containers/ScrollReveal";
 
 const clientsReview = [
   {
@@ -44,7 +45,7 @@ const clientsReview = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials">
+    <ScrollReveal id="testimonials">
       <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
 
@@ -66,6 +67,6 @@ export function Testimonials() {
             </SwiperSlide>
           ))}
       </Swiper>
-    </section>
+    </ScrollReveal>
   );
 }

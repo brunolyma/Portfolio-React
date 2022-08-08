@@ -1,3 +1,5 @@
+import { ScrollReveal } from "../../containers/ScrollReveal";
+
 import Me from "../../assets/me-about.jpg";
 
 import { FaAward } from "react-icons/fa";
@@ -26,7 +28,7 @@ const aboutCarrer = [
 
 export function About() {
   return (
-    <section id="about">
+    <ScrollReveal id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -60,6 +62,6 @@ export function About() {
           </a>
         </div>
       </div>
-    </section>
+    </ScrollReveal>
   );
 }
