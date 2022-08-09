@@ -8,9 +8,10 @@ const services = [
     id: "web",
     area: "Web Development",
     offer: [
-      "Mussum Ipsum",
-      "cacilds vidis litro abertis.",
-      "Mauris nec dolor in eros commodo tempor.",
+      "Mobile-first",
+      "Responsive",
+      "Clean Code",
+      "UI/UX"
     ],
   },
 ];

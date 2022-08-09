@@ -38,6 +38,7 @@
 }
 
 .experience__description > p span {
+  border-image: url();
   @apply text-base text-color-primary font-bold;
 }
 

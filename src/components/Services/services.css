@@ -1,5 +1,5 @@
 .service {
-  @apply h-fit bg-card-respon border border-solid border-color-primary rounded-b-[2rem] transition tablet:w-3/4 tablet:mx-auto laptop:bg-card-respon laptop:hover:bg-color-bg-variant laptop:hover:border-color-primary-variant;
+  @apply h-fit bg-card-respon border border-solid border-color-primary rounded-b-[2rem] transition tablet:w-3/4 tablet:mx-auto laptop:bg-card-respon laptop:hover:bg-color-bg-variant laptop:hover:border-color-primary-variant laptop:w-2/4;
 }
 
 .service__head {

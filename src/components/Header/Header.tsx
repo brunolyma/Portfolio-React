@@ -3,7 +3,6 @@ import Me from "../../assets/me.png";
 import { Socials } from "./Socials";
 
 import "./header.css";
-import { ScrollReveal } from "../../containers/ScrollReveal";
 
 export function Header() {
   return (

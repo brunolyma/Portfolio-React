@@ -52,10 +52,15 @@ export function About() {
           </div>
 
           <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
-            disputationi eu sit. Vide electram sadipscing et per. Per aumento de
-            cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im
-            ampola pa arma uma pindureta.
+            Since I was little, I was curious to know how and why things work,
+            from simple things to the most fascinating, and, in this, the use of
+            technology attracted me. Decide to focus on programming, something
+            that is in the daily life of the world and constantly evolving. Just
+            like me, who seeks personal and professional improvement, now I hunt
+            for bugs and look for best practices. <br /> Focused on JavaScript,
+            initially on the frontend, but in pursuit of FullStack. I enjoy
+            games and books, photography and cinema and I love music and
+            traveling!🎸🏖️📽️📸📖🤓🚀
           </p>
           <a className="btn btn-primary" href="#contact">
             Let's talk
