@@ -7,12 +7,7 @@ const services = [
   {
     id: "web",
     area: "Web Development",
-    offer: [
-      "Mobile-first",
-      "Responsive",
-      "Clean Code",
-      "UI/UX"
-    ],
+    offer: ["Mobile-first", "Responsive", "Clean Code", "UI/UX"],
   },
 ];
 

@@ -1,7 +1,13 @@
 import { ReactNode, useEffect, useRef } from "react";
 import scrollReveal from "scrollreveal";
 
-export function ScrollReveal({ children, id }: {children: ReactNode, id: string}) {
+export function ScrollReveal({
+  children,
+  id,
+}: {
+  children: ReactNode;
+  id: string;
+}) {
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -12,5 +18,9 @@ export function ScrollReveal({ children, id }: {children: ReactNode, id: string}
       });
   }, []);
 
-  return <section id={id} ref={sectionRef}>{children}</section>;
+  return (
+    <section id={id} ref={sectionRef}>
+      {children}
+    </section>
+  );
 }

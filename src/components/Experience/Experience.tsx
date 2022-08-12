@@ -37,21 +37,21 @@ const skillsLanguages = [
     icon: <SiTypescript color="#0074C2" />,
     lang: "TypeScript",
     level: "Beginner",
-    desc: "",
+    desc: " explicit type, type inference, function types, objects/arrays, union/generics, type intersection/interface... ",
   },
   {
     id: "react",
     icon: <SiReact color="#55CFF0" />,
     lang: "React",
     level: "Beginner",
-    desc: " faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.",
+    desc: " components(functional, controlled/uncontrolled), hooks(useState, UseEffect, useRef...), API consumption async(fetch, axios...), SPA, routing, external libs... ",
   },
   {
     id: "tailwind",
     icon: <SiTailwindcss color="#419FAA" />,
     lang: "Tailwind",
     level: "Beginner",
-    desc: " é um framework CSS que oferece a possibilidade de você criar layouts usando uma estrutura de CSS pronta. Isso permite que você otimize o tempo de criação de uma UI sem precisar fazer tudo manualmente.",
+    desc: " a CSS framework that makes it possible to create layouts with a ready and customizable CSS structure. This allows you to optimize the time of creating a UI without having to do everything manually.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import { ScrollReveal } from "../../containers/ScrollReveal";
 
-import Me from "../../assets/me-about.jpg";
+import Me from "../../assets/me-about.webp";
 
 import { FaAward } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
