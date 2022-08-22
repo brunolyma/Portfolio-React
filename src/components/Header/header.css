@@ -22,7 +22,7 @@ header {
 .me {
   left: 50%;
   transform: translateX(-50%);
-  @apply w-[22rem] h-[30rem] absolute bg-gradient-to-b from-color-primary mt-10 p-6 pt-20 rounded-t-[12rem] /*responsive*/ tablet:mt-16;
+  @apply w-[22rem] h-[30rem] absolute bg-gradient-to-b from-transparent via-color-primary mt-10 p-6 pt-20 rounded-[40%] /*responsive*/ tablet:mt-16;
 }
 
 /* =============== SCROLL DOWN ================ */

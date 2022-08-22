@@ -17,13 +17,13 @@ module.exports = {
       poppins: ["Poppins", "sans-serif"],
     },
     colors: {
-      "color-bg": "#1f1f38",
-      "color-bg-variant": "#2c2c6c",
-      "color-primary": "#4db5ff",
-      "color-primary-variant": "#4db5ff66",
+      "color-bg": "#222",
+      "color-bg-variant": "#9a0f0d8e",
+      "color-primary": "#e3181f",
+      "color-primary-variant": "#FF393E45",
+      "card-respon": "#9A100D61",
       "color-white": "#ffffff",
       "color-light": "#ffffff99",
-      "card-respon": "#2c2c6c61",
       transparent: "transparent",
     },
     extend: {

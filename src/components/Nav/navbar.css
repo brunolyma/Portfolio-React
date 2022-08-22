@@ -7,8 +7,8 @@ nav {
 }
 
 nav a {
-  @apply flex bg-transparent border-[0.1px] border-solid border-transparent p-4 rounded-[50%] text-color-light text-lg hover:bg-[#00000066];
+  @apply flex bg-transparent border-[0.1px] border-solid border-transparent p-4 rounded-[50%] text-color-light text-lg hover:bg-[#11111196];
 }
 nav a.active {
-  @apply bg-color-bg border-[0.1px] border-solid border-[#313179] text-color-white;
+  @apply bg-color-bg border-[0.1px] border-solid border-[#732D3F] text-color-white;
 }
